@@ -47,6 +47,10 @@ body {
 	font-size: 14px;
 }
 
+.profiles {
+	width: 25px;
+}
+
 #footer {
    left: 0;
    bottom: 0;
