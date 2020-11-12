@@ -26,6 +26,41 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+#image-overlay {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: auto;
+  transition: .5s ease;
+  opacity:0;
+  color: white;  
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+#image-overlay p {
+  margin: 0;
+}
+
+#image-overlay #overlay-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#image-overlay #overlay-text {
+  font-size: 10px;
+}
+
+#contentLeft:hover #image-overlay {
+  opacity: 1;
 }
 
 #contentRight {
