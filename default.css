@@ -11,11 +11,16 @@ body {
   overflow: hidden;
 }
 
-#contentDiv {
+body a {
+  text-decoration: none;
+  color: #606060;
+}
+
+main {
   height: 100vh;
 }
 
-#contentDiv .block {
+main .block {
   height: 100vh;
 }
 
@@ -92,7 +97,7 @@ body {
   margin-right: 10px;
 }
 
-#footer {
+footer {
   left: 0;
   bottom: 0;
   width: 100%;
@@ -101,7 +106,7 @@ body {
   clear: both;
 }
 
-#footer p {
+footer p {
   color: white;
 }
 
@@ -115,7 +120,7 @@ body {
     width: 100%;
   }
   
-  #footer p {
+  footer p {
     color: black;
   }
 }
